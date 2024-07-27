@@ -2,11 +2,5 @@ let par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget
 let counts = {};
 
 // Your code here
-for (let i= 0; i < par.length; i ++){
-    const letters= par[i]
-    counts[letters]= i++
-    console.log(counts)
-}
 
-
-
+console.log(counts);
