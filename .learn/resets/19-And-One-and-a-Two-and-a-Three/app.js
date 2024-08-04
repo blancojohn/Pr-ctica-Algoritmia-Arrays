@@ -6,9 +6,6 @@ let contact = {
 
 for (let key in contact) {
     // Your code here
-    let KeyValue= "";
-    KeyValue += `${key}${":"}${contact[key]}`
-    console.log(KeyValue)
-}
 
+}
 
