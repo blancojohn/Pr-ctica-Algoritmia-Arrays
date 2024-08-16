@@ -8,11 +8,7 @@ let people = [
 
 let simplifier = function(person) {
 	// Your code here
-	let name= person.name;
-	let age=  person.birthDate.getTime() - Date.now();
-	let instancie= new Date(age);
-	let transformation= Math.abs(instancie.getUTCFullYear() - 1970)
-	return `Hello, my name is ${name} and i am ${transformation} years old`;
+	return person.name;
 };
 
 console.log(people.map(simplifier));
