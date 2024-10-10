@@ -10,9 +10,3 @@ let tasks = [
 ];
 
 // Your code here
-let tasksDone= tasks.filter(task => {
-  if(task.done == true){
-    return task
-  }
-})
-console.log(tasksDone)
