@@ -2,4 +2,11 @@ let allNames = ["Romario", "Boby", "Roosevelt", "Emiliy", "Michael", "Greta", "P
 
 // Your code here
 
+let resultingNames= allNames.filter(nameLetterR=>{
+    for(let i=0; i <= nameLetterR.length; i++){
+        if(nameLetterR[0]== "R"){
+            return nameLetterR
+        }
+    }
+})
 console.log(resultingNames);
