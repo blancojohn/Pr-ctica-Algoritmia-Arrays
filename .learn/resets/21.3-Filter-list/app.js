@@ -2,10 +2,4 @@ let names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','L
 
 // Your code here
 
-const filterByName= (arr, speceficString)=>{
-    let arrFilter= arr.filter(item=> item.toLowerCase().includes(speceficString)
-    )
-    return arrFilter
-}
-console.log('LONGITUD ARRAY ORIGINAL', names.length)
-console.log('ARRAY FILTRADO', filterByName(names, 'am')) 
+console.log(filterByName(names, 'am'));
